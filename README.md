@@ -7,7 +7,7 @@ This project helps plant administrators monitor daily activities, manage employe
 ## Tech Stack
 - **Frontend:** React + Vite, Bootstrap
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB
+- **Database:** SQL
 - **Authentication:** JWT
 
 ## Features
