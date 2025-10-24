@@ -1,0 +1,36 @@
+.expense-create-radio-group {
+  gap: 30px;
+}
+
+.expense-create-radio {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  font-size: 1rem;
+}
+
+.expense-create-radio input[type="radio"] {
+  opacity: 0;
+  position: absolute;
+}
+
+.expense-create-radio-circle {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #02fd02;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.expense-create-radio input[type="radio"]:checked + .expense-create-radio-circle {
+  background-color: #02fd02;
+  box-shadow: inset 0 0 0 4px #fff;
+}
+
+.expense-create-radio:hover .expense-create-radio-circle {
+  border-color: #02fd02;
+}
